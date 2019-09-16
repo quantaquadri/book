@@ -313,7 +313,7 @@ body {
 }
 
 .nav-white .nav-item .nav-link {
-	/* color: #FFFFFF; */
+	color: #000;
 }
 
 .nav-white .nav-item .nav-link:hover {
@@ -376,7 +376,7 @@ body {
 }
 
 .navbar.past-main .nav-item:hover .nav-link {
-	color: #23D3D3;
+	color: #f79320;
 }
 
 .navbar.past-main .navbar-brand {
@@ -515,7 +515,7 @@ body {
 }
 
 .hero2 {
-	background: #6262a0;
+	background: #FFE7BD;
 }
 
 .hero2 .hero-inner {
@@ -553,7 +553,7 @@ body {
 .hero2 .hero-inner h2 {
 	font-size: 28px;
 	font-weight: 600;
-	color: #FFFFFF;
+	color: #000;
 	line-height: 1.4;
 	margin-bottom: 15px;
 }
@@ -561,8 +561,8 @@ body {
 .hero2 .hero-inner p {
 	font-size: 16px;
 	font-weight: 400;
-	color: #FFFFFF;
-	line-height: 2.8;
+	color: #000;
+	line-height: 2.5;
 	margin-top: 15px;
 }
 
@@ -579,7 +579,7 @@ body {
 	font-family: 'Nunito', sans-serif;
 	font-size: 12px;
 	font-weight: 600;
-	color: #6262a0;
+	color: #000;
 	line-height: 1.4;
 	margin: 10px 0;
 }
@@ -2081,7 +2081,7 @@ ul#countdown li {
 	}
 
 	.hero2 .hero-inner h2 {
-		font-size: 50px;
+		font-size: 44px;
 	}
 
 	.flex-inner {
@@ -2380,4 +2380,42 @@ ul#countdown li {
 		bottom: -25%;
 	}
 
+}
+
+
+.padding-bottom-45px {
+    padding-bottom: 45px !important;
+}
+
+.padding-bottom-45px {
+    padding-bottom: 45px !important;
+}
+.heading-2-body {
+    margin-bottom: 24px;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #3a3a47;
+}
+
+.img-square-65px {
+    width: 50px !important;
+    height: 50px !important;
+	min-width: 50px !important;
+}
+
+
+.text-large-bolder {
+    font-weight: 600;
+	color: #000;
+	font-size: 16px;
+}
+.padding-tops-20px {
+    padding-top: 20px !important;
+}
+
+p+p {
+    margin-top: 1em;
+	font-size: 14px;
+	line-height: 24px;
 }
