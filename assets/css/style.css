@@ -54,12 +54,12 @@ table {
 /* --- Common Styles ---*/
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Montserrat';
+	font-family: 'Nunito', sans-serif;
   font-size: 16px;
 }
 
 p {
-	font-family: 'Montserrat';
+	font-family: 'Nunito', sans-serif;
 	font-size: 14px;
 }
 
@@ -162,7 +162,7 @@ body {
 }
 
 .tld-text h6 {
-	font-family: 'Montserrat';
+	font-family: 'Nunito', sans-serif;
 	font-size: 14px;
 	font-weight: 700;
 	color: #FFFFFF !important;
@@ -171,7 +171,7 @@ body {
 
 
 .tld-text a {
-	font-family: 'Montserrat';
+	font-family: 'Nunito', sans-serif;
 	font-size: 16px;
 	font-weight: 500;
 	color: #FFFFFF !important;
@@ -187,7 +187,7 @@ body {
 /*------ Navbar Styling ------*/
 
 .navbar {
-  font-family: "Montserrat";
+	font-family: 'Nunito', sans-serif;
 	padding: 15px 0;
 	background-color: #FFFFFF !important;
 	border-bottom: 1px solid #EFEFF1;
@@ -196,7 +196,7 @@ body {
 }
 
 .navbar .navbar-brand {
-	font-family: 'Montserrat';
+	font-family: 'Nunito', sans-serif;
 	font-size: 18px;
 	font-weight: 600;
 	letter-spacing: 3px;
@@ -292,13 +292,14 @@ body {
 /*------ nav Transparent Styling ------*/
 
 .nav-white {
-	background-color: transparent !important;
+	/* background-color: transparent !important; */
+	background-color: #ffff;
 	border-bottom: 1px solid transparent;
 	padding: 20px 0;
 }
 
 .nav-white span.navbar-toggler-icon {
-	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(35, 211, 211, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .nav-white .navbar-nav {
@@ -307,11 +308,12 @@ body {
 }
 
 .nav-white .navbar-brand {
-	color: #FFFFFF !important;
+	/* color: #FFFFFF !important; */
+	color: #000 !important;
 }
 
 .nav-white .nav-item .nav-link {
-	color: #FFFFFF;
+	/* color: #FFFFFF; */
 }
 
 .nav-white .nav-item .nav-link:hover {
@@ -458,7 +460,7 @@ body {
 }
 
 .btn-action {
-	font-family: 'Montserrat';
+	font-family: 'Nunito', sans-serif;
 	display: inline-block;
   height: 42px;
   padding: 0 30px;
@@ -473,10 +475,10 @@ body {
   white-space: nowrap;
   cursor: pointer;
 	background-color: transparent;
-	background: #1e266d;
+	background: #f79320;
   color: #FFFFFF;
-  border: 1px solid #1e266d;
-  border-radius: 50px;
+  border: 1px solid #f79320;
+  border-radius: 5px;
   box-sizing: border-box;
 	-webkit-transition: 0.2s;
 	-moz-transition: 0.2s;
@@ -484,9 +486,9 @@ body {
 }
 
 .btn-action:hover {
-	color: #23D3D3;
-	background: #1e266d;
-	border: 1px solid #1e266d !important;
+	color: #000;
+	background: #f79320;
+	border: 1px solid #f79320 !important;
 	outline: none !important;
 	text-decoration: none;
 }
@@ -541,7 +543,7 @@ body {
 .hero2 .hero-inner h4 {
 	font-size: 14px;
 	font-weight: 600;
-	color: #23D3D3;
+	color: #f79320;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	line-height: 1.2;
@@ -560,7 +562,7 @@ body {
 	font-size: 16px;
 	font-weight: 400;
 	color: #FFFFFF;
-	line-height: 1.8;
+	line-height: 2.8;
 	margin-top: 15px;
 }
 
@@ -574,22 +576,23 @@ body {
 }
 
 .hero2 .hero-form #contactForm label {
-	font-family: 'Montserrat';
-	font-size: 14px;
+	font-family: 'Nunito', sans-serif;
+	font-size: 12px;
 	font-weight: 600;
-	color: #1e266d;
+	color: #6262a0;
 	line-height: 1.4;
 	margin: 10px 0;
 }
 
 .hero2 .hero-form #contactForm input, .hero2 .hero-form #contactForm textarea {
-	font-family: 'Montserrat';
+	font-family: 'Nunito', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	color: #1e266d;
-	border: 0;
-	border-radius: 0;
-	border-bottom: 2px solid #b4becb;
+	border: 1px solid #b4becb;
+	border-radius: 5px;
+	/* border-bottom: 2px solid #b4becb; */
+	height: 40px;
 }
 
 .hero2 .hero-form #contactForm .btn-action {
@@ -599,7 +602,7 @@ body {
 
 
 .help-block {
-	font-family: 'Montserrat';
+	font-family: 'Nunito', sans-serif;
 	font-size: 12px;
 	font-weight: 400;
 	margin-top: 5px;
@@ -609,7 +612,7 @@ body {
 
 .text-success, .text-danger {
 	font-size: 14px;
-	font-family: 'Poppins';
+	font-family: 'Nunito', sans-serif;
 }
 
 /*-----------------------------------------------------
@@ -688,7 +691,7 @@ body {
 
 
 .flex-inner .f-text .left-content a {
-	font-family: "Montserrat";
+	font-family: 'Nunito', sans-serif;
 	font-size: 14px;
 	font-weight: bold;
 	color: #8798ab;
@@ -840,7 +843,7 @@ body {
 
 .yd_ft_cst ul li {
 	display: block;
-	font-family: 'Montserrat';
+	font-family: 'Nunito', sans-serif;
 	font-size: 16px;
 	line-height: 1.4;
 	margin-bottom: 10px;
@@ -1038,7 +1041,7 @@ body {
 }
 
 .block_list li span {
-	font-family: 'Montserrat';
+	font-family: 'Nunito', sans-serif;
 	font-size: 16px;
 	font-weight: 600;
 	letter-spacing: 0;
@@ -1126,7 +1129,7 @@ body {
 }
 
 .flx_2 a {
-	font-family: 'Montserrat';
+	font-family: 'Nunito', sans-serif;
 	font-size: 12px;
 	font-weight: 500;
 	color: #FFFFFF;
@@ -1245,7 +1248,7 @@ body {
 
 
 .split_features .yd_flx2 .flx_1 h2 {
-	font-family: 'Roboto' !important;
+	font-family: 'Nunito', sans-serif;
 	font-size: 32px;
 	font-weight: 300;
 	color: #111111;
@@ -1254,7 +1257,7 @@ body {
 }
 
 .split_features .yd_flx2 .flx_1 p {
-	font-family: 'Roboto' !important;
+	font-family: 'Nunito', sans-serif;
 	font-size: 17px;
 	font-weight: 400;
 	color: #777;
@@ -1344,7 +1347,7 @@ body {
 }
 
 .yd_prc2 .yd_flx2 span {
-	font-family: 'Montserrat';
+	font-family: 'Nunito', sans-serif;
 	font-size: 36px;
 	font-weight: 600;
 	display: inline-block;
@@ -1353,7 +1356,7 @@ body {
 }
 
 .sub_span {
-	font-family: 'Montserrat';
+	font-family: 'Nunito', sans-serif;
 	font-size: 14px;
 	font-weight: 600;
 	color: #97a6b5;
@@ -1368,7 +1371,7 @@ body {
 }
 
 .yd_prc2 .prc_features li span {
-	font-family: 'Montserrat';
+	font-family: 'Nunito', sans-serif;
 	font-size: 16px;
 	font-weight: 500;
 	color: #97a6b5;
@@ -1402,11 +1405,11 @@ body {
 	.yd_cta_box {
 		padding: 0;
 		text-align: center;
-		background: #1e266d;
+		background: #fafafa;
 	}
 
 	.cta_box {
-		background: #1e266d;
+		background: #fafafa;
 		border-radius: 0;
 		display: flex;
 		margin: auto;
@@ -1428,7 +1431,7 @@ body {
 		font-size: 16px;
 		font-weight: 400;
 		line-height: 1.2;
-		color: rgba(255, 255, 255, 0.8);
+		color: #000;
 		margin-bottom: 20px;
 	}
 
@@ -1436,7 +1439,7 @@ body {
 		font-size: 24px;
 		font-weight: 400;
 		line-height: 1.6;
-		color: #FFFFFF;
+		color: #000;
 	}
 
 	.cta_box .cta_box_inner .btn-action {
@@ -1448,10 +1451,10 @@ body {
 
 
 .footer {
-	background: #040E1A;
-	background: #1e266d;
+	background: #6262a0;
+	background: #6262a0;
 	padding: 35px 0;
-	border-top: 2px solid #2e2d72;
+	border-top: 2px solid rgba(250, 250, 250, 0.1);
 }
 
 .footer-inner {
@@ -1463,7 +1466,7 @@ body {
 }
 
 .footer .footer-logo h2 {
-	font-size: 18px;
+	font-size: 14px;
 	font-weight: 500;
 	color: #e5e5e5;
 	text-transform: uppercase;
@@ -1502,17 +1505,17 @@ body {
 	position: fixed;
 	bottom: 30px;
 	right: 30px;
-	font-family: 'Montserrat';
+	font-family: 'Nunito', sans-serif;
 	font-size: 11px;
 	font-weight: 700;
 	text-transform: uppercase;
-	color: #333333;
+	color: #fff;
 	line-height: 1.8;
 	display: inline-block;
 	padding: 1.5rem 1.2rem;
 	margin-top: 0;
 	border-radius: 2px;
-	background: url(../icons/arrow.svg) center top 1.2rem no-repeat #23D3D3;
+	background: url(../icons/arrow.svg) center top 1.2rem no-repeat #f79320;
 	text-decoration: none;
 	-webkit-transition: 200ms;
 	-moz-transition: 200ms;
@@ -1542,7 +1545,7 @@ body {
 }
 
 .footer ul li {
-	font-family: "Montserrat";
+	font-family: 'Nunito', sans-serif;
   font-size: 16px;
   font-weight: 500;
 	letter-spacing: 0;
@@ -1666,7 +1669,7 @@ body {
 }
 
 .split_home .flx_1 a {
-	font-family: 'Montserrat';
+	font-family: 'Nunito', sans-serif;
 	font-size: 12px;
 	font-weight: 500;
 	color: #23a393;
@@ -1742,7 +1745,7 @@ body {
 
 
 .split_footer ul li {
-	font-family: "Montserrat";
+	font-family: 'Nunito', sans-serif;
   font-size: 16px;
   font-weight: 500;
 	letter-spacing: 0;
@@ -1852,7 +1855,7 @@ ul#countdown li {
 
 
 .txt-box ul#countdown li span {
-	font-family: Arial;
+	font-family: 'Nunito', sans-serif;
 	font-size: 24px;
 	font-weight: 600;
 	line-height: 1;
@@ -1924,7 +1927,7 @@ ul#countdown li {
 
 .form input {
   color: #222222;
-  font-family: 'Montserrat';
+  font-family: 'Nunito', sans-serif;
   padding: 0;
   font-size: 13px;
 	font-weight: 500;
@@ -1949,7 +1952,7 @@ ul#countdown li {
   margin-left: -35px;
   padding: 0 25px 0 25px;
 	background: #23D3D3;
-	font-family: 'Montserrat';
+	font-family: 'Nunito', sans-serif;
 	font-size: 14px;
 	font-weight: 500;
 	text-transform: capitalize;
@@ -1968,7 +1971,7 @@ ul#countdown li {
 	left: 20%;
 	right: 0;
 	bottom: 0%;
-	font-family: 'Montserrat';
+	font-family: 'Nunito', sans-serif;
 	font-size: 13px;
 	font-weight: 500;
 	color: #FF3333;
@@ -1979,7 +1982,7 @@ ul#countdown li {
 	left: 20%;
 	bottom: -90%;
 	vertical-align: middle;
-	font-family: 'Montserrat';
+	font-family: 'Nunito', sans-serif;
 	font-size: 13px !important;
 	font-weight: 500 !important;
 	margin: 0 !important;
@@ -1998,7 +2001,7 @@ ul#countdown li {
 	bottom: -50%;
 	vertical-align: middle;
 	text-align: center;
-	font-family: 'Montserrat';
+	font-family: 'Nunito', sans-serif;
 	font-size: 13px;
 	font-weight: 500;
 	color: #23D3D3;
@@ -2065,7 +2068,7 @@ ul#countdown li {
 	}
 
 	.hero2 .hero-inner {
-		padding: 100px 0 100px 0;
+		padding: 150px 0 150px 0;
 	}
 
 	.hero-inner h2 {
@@ -2078,7 +2081,7 @@ ul#countdown li {
 	}
 
 	.hero2 .hero-inner h2 {
-		font-size: 34px;
+		font-size: 50px;
 	}
 
 	.flex-inner {
