@@ -2429,6 +2429,7 @@ p+p {
     margin-top: 1em;
 	font-size: 14px;
 	line-height: 24px;
+	margin-bottom: 2em;
 }
 
 
@@ -2607,3 +2608,23 @@ p+p {
     text-align: left;
 }
 
+
+@media (max-width: 479px){
+	.hero2 .hero-content {
+		text-align: left;
+	}
+}
+
+
+@media (max-width: 479px){
+	.flex-intro h2  {
+		text-align: left;
+	}
+}
+
+
+@media (max-width: 479px){
+	.flex-intro p {
+		text-align: left;
+	}
+}
