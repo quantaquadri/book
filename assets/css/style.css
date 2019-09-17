@@ -2628,3 +2628,40 @@ p+p {
 		text-align: left;
 	}
 }
+
+
+@media (max-width: 479px){
+	.flex-inner .f-image {
+		padding: 0 0;
+		margin-bottom: 20px
+	}
+}
+
+
+@media (max-width: 479px) {
+	.flex-inner .f-text {
+		-webkit-box-flex: 1;
+		-ms-flex: 1;
+		flex: 1;
+		text-align: left;
+		margin-right: 60px
+	}
+}
+
+
+@media (max-width: 479px){
+	.flex-inner .f-text {
+		padding: 0 0;
+	}
+}
+
+@media (max-width: 479px){
+	.split_text_inner {
+		background-color: #fafafa;
+		line-height: normal;
+		padding: 20px;
+		position: relative;
+		box-shadow: 0px 2px 2px #eee;
+		text-align: left;
+	}
+}
