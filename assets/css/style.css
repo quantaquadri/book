@@ -318,11 +318,11 @@ body {
 }
 
 .nav-white .nav-item .nav-link:hover {
-  color: #23D3D3;
+  color: #f79320;
 }
 
 .nav-white .nav-item .nav-link:focus {
-  color: #23D3D3;
+  color: #f79320;
 }
 
 @media only screen and (max-width: 767px) {
@@ -1089,7 +1089,7 @@ body {
 .flx_6 {
 	background-color: #fafafa;
 	line-height: normal;
-	padding: 25px;
+	padding: 20px;
 	position: relative;
 	box-shadow: 0px 2px 2px #eee;
 }
@@ -1349,7 +1349,7 @@ body {
 }
 
 .flx_6 h2 {
-	font-size: 18px;
+	font-size: 14px;
 	font-weight: 600;
 	color: #777;
 	margin: 0;
@@ -1381,7 +1381,7 @@ body {
 
 .yd_prc2 .prc_features li span {
 	font-family: 'Nunito', sans-serif;
-	font-size: 13px;
+	font-size: 12px;
 	font-weight: 500;
 	color: #000;
 	vertical-align: middle;
@@ -2559,3 +2559,51 @@ p+p {
     max-width: 100%;
     margin-top: 20px;
 }}
+
+
+.prc_features img{
+	width: 5%;
+	margin-bottom: 3px
+}
+
+@media only screen and (min-width: 480px){
+.container-sd {
+    padding-left: 40px;
+    padding-right: 40px;
+}}
+
+
+.flx_7 {
+    background-color: #6262a0;
+    line-height: normal;
+    padding: 18px;
+    position: relative;
+    box-shadow: 0px 2px 2px #eee;
+}
+
+
+.flx_7 h2 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    margin: 0;
+}
+
+.flx_7 .prc_featuress li{
+	font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+    vertical-align: middle;
+    line-height: 1.4;
+    letter-spacing: 0;
+    margin: 0 0 25px 0;
+}
+
+
+.yd_prc2 .prc_featuress {
+    list-style-type: none;
+    margin-top: 25px;
+    text-align: left;
+}
+
