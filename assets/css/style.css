@@ -202,6 +202,7 @@ body {
 	letter-spacing: 3px;
 	color: #333347 !important;
 	vertical-align: middle;
+	margin-right: 0.3em;
 }
 
 .navbar .navbar-brand img {
@@ -309,7 +310,7 @@ body {
 
 .nav-white .navbar-brand {
 	/* color: #FFFFFF !important; */
-	color: #000 !important;
+	color: #f79320 !important;
 }
 
 .nav-white .nav-item .nav-link {
@@ -362,7 +363,7 @@ body {
 }
 
 .navbar.past-main .navbar-brand {
-	color: #333347 !important;
+	color: #f79320 !important;
 }
 
 .nav-white.past-main .nav-item .nav-link {
@@ -507,9 +508,9 @@ body {
 }
 
 .btn-alt:hover, .btn-alt:focus {
-	background: #23D3D3;
+	background: #f79320;
 	color: #040e1a;
-	border: 1px solid #23D3D3 !important;
+	border: 1px solid #f79320 !important;
 	outline: none !important;
 	text-decoration: none;
 }
