@@ -2575,7 +2575,7 @@ p+p {
 
 
 .flx_7 {
-    background-color: #6262a0;
+    background-color: #FFE7BD;
     line-height: normal;
     padding: 18px;
     position: relative;
@@ -2586,7 +2586,7 @@ p+p {
 .flx_7 h2 {
     font-size: 14px;
     font-weight: 600;
-    color: #fff;
+    color: #6262a0;
     margin: 0;
 }
 
@@ -2594,7 +2594,7 @@ p+p {
 	font-family: 'Nunito', sans-serif;
     font-size: 12px;
     font-weight: 500;
-    color: #fff;
+    color: #000;
     vertical-align: middle;
     line-height: 1.4;
     letter-spacing: 0;
@@ -2662,6 +2662,18 @@ p+p {
 		padding: 20px;
 		position: relative;
 		box-shadow: 0px 2px 2px #eee;
+		text-align: left;
+	}
+}
+
+
+@media (max-width: 479px){
+	.flx_7 .split_text_inner {
+		background-color: #FFE7BD;
+		line-height: normal;
+		padding: 20px;
+		position: relative;
+		box-shadow: 0px 2px 2px #FFE7BD;
 		text-align: left;
 	}
 }
